@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Login Form Example</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:400,700'><link rel="stylesheet" href="./style1.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="login-form">
+  <form action="connect.php" method="POST">
+    <h1>Register</h1>
+    <div class="content">
+      <div class="input-field">
+        <input type="text" placeholder="First Name" name="fname" autocomplete="nope" required>
+      </div>
+      <div class="input-field">
+        <input type="text" placeholder="Last Name" name="lname" autocomplete="nope" required>
+      </div>
+
+      <div class="input-field">
+        <input type="tel" placeholder="Mobile Number" name="pno" size="10" required>
+      </div>
+
+      <div class="input-field">
+        <input type="email" placeholder="Email" name="email" autocomplete="nope" required>
+      </div>
+      <div class="input-field">
+        <input type="password" placeholder="Password" name="password" autocomplete="new-password" required>
+      </div>
+      <div class="input-field">
+        <input type="password" placeholder="Confirm Password"  autocomplete="new-password" required>
+      </div>
+      <!-- <a href="#" class="link">Forgot Your Password?</a> -->
+    </div>
+    <div class="action">
+      <input type="submit" value="Register Now">
+      
+    </div>
+  </form>
+</div>
+<!-- partial -->
+  <script  src="./script1.js"></script>
+
+</body>
+</html>
